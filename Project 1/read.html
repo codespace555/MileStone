@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Css Style Sheet link -->
+   <link rel="stylesheet" href="style.css" />
+   <title>PWSkills Blog</title>
+</head>
+<body>
+    
+    <nav>
+        <!-- ......logo...... -->
+        <div class="logo">PWSkills Blog</div>
+        <!-- ......Add Blog Button...... -->
+        <div class="addBlog_btn">
+          <button><a href="index.html"><i class="fa-solid fa-arrow-left-long"></a></i></button>
+        </div>
+      </nav>
+    
+    <div id="readblog"></div>
+
+    <script>
+        // Retrieve the data from local storage
+        const data = JSON.parse(localStorage.getItem('formData'));
+
+        // Display the data on the webpage
+        const resultDiv = document.getElementById('readblog');
+        data.forEach(function(formData) {
+            resultDiv.innerHTML += `
+            <div class="blog">
+                <div class="head">
+                    <div class="head_text">
+                <strong class= "title">${formData.Title}</strong>
+                <p class= "discription" >${formData.Discription}</p>
+                </div>
+                <img src="${formData.Url}" alt="">
+            </div>
+                <p class= "blogcontant">${formData.blog_contant}</p>
+                
+                
+                </div>
+            `;
+        });
+    </script>
+     <!-- fontawsome script -->
+     <script
+     src="https://kit.fontawesome.com/c54e034b6c.js"
+     crossorigin="anonymous"
+   ></script>
+</body>
+</html>
