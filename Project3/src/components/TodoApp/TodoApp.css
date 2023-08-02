@@ -1,0 +1,11 @@
+.todoApp{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  height: 500vh;
+    background-image: linear-gradient(to right bottom, #b9d16b, #6ab777, #1a9881, #00767e, #005369, #00556f, #005776, #00597c, #0083a4, #00aeaf, #00d79a, #5ffb6a);
+    padding-top: 90px;
+    flex-direction: column;
+    gap: 50px;
+
+}

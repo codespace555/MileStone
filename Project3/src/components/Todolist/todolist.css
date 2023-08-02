@@ -1,0 +1,38 @@
+.item{
+    width: 310px;
+    height: 200px;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #896bd1, #6761b7, #4a559c, #324980, #213b63, #1d3c65, #183c68, #113d6a, #134d8e, #245cb2, #3e6ad7, #5f77fb);
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.item::-webkit-scrollbar {
+    display: none;
+  }
+.update_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 300px;
+    gap:10px ;
+    align-items: center;
+   
+    padding: 5px;
+
+}
+
+.update_btn button{
+    width: 200px;
+}
