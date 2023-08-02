@@ -29,7 +29,7 @@ function TodoInput() {
     const newData = [...data];
     newData.splice(index, 1);
     setData(newData);
-    toast(`${[...data]} Todo is Remove`);
+    toast(`${data[index]} Todo is Remove`);
 
   };
   return (

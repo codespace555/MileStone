@@ -18,7 +18,7 @@ function TodoList({ todo, index , onDelete}) {
     <>
       <div className="item">
         <div className="list">
-          <span className="index"></span>
+          <span className="index">{index+1}.</span>
 
           <span>{todo}</span>
         </div>
