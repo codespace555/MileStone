@@ -36,3 +36,10 @@
 .update_btn button{
     width: 200px;
 }
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
