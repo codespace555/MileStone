@@ -20,3 +20,11 @@ PWSkills Blog is a simple blog application built using HTML, CSS, and JavaScript
 - Add a new blog post using a modal that opens when clicking the '+' icon in the header.
 - The add blog modal contains a form with fields for blog title, blog poster, description, and blog content.
 - New blog posts are added to the list of existing blogs
+
+## Installation
+
+To run the application locally, follow these steps:
+
+1. Clone this repository to your local machine using `git clone https://github.com/your_username/Project 1`
+2. Navigate to the project directory: `cd PWSkills-Blog`
+3. Open the `index.html` file in your preferred web browser.
