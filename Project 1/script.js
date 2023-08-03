@@ -62,6 +62,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     displayData();
     // Reset the form after adding a new blog
     document.getElementById('myForm').reset();
+    window.location.reload(true);
 });
 
 function displayData() {
