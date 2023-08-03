@@ -6,16 +6,16 @@ A simple Todo Web App built using React. This application allows users to add an
 
 ## Table of Contents
 
-- [Demo](#demo)
+- [Test](#Test)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
 
-## Demo
+## Test
 
-![Live Demo](https://lighthearted-rugelach-b6e120.netlify.app/)
+(https://lighthearted-rugelach-b6e120.netlify.app/)
 
 ## Features
 
