@@ -49,6 +49,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     const objectStore = transaction.objectStore('formData');
 
     const formData = {
+        Id: new Date().getTime(),
         Url: Url,
         Title: Title,
         Discription: Discription,
@@ -59,6 +60,8 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
 
     // Show the data on the webpage
     displayData();
+    // Reset the form after adding a new blog
+    document.getElementById('myForm').reset();
 });
 
 function displayData() {
@@ -70,12 +73,10 @@ function displayData() {
         const data = event.target.result;
 
         const resultDiv = document.getElementById('result');
-        resultDiv.innerHTML = `
-          
-        `;
+
 
         data.forEach(function (formData) {
-        const readid = formData.Title
+
 
             resultDiv.innerHTML += `
             <div class="card">
@@ -84,20 +85,44 @@ function displayData() {
                 <strong>${formData.Title}</strong>
                 <p>${formData.Discription}</p>
                 
-                <button onclick = "read()">Read</button>
+                <button onclick = "read(${formData.Id})">Read</button>
                 
                 
                 </div>
             `;
-            
+
         });
     };
 }
 
-    // Read data from IndexedDB
+// Read data from IndexedDB
+function displaySelectedBlog(selectedBlog) {
+    const selectedBlogContentDiv = document.getElementById('selectedBlogContent');
+    selectedBlogContentDiv.innerHTML = `
+        <nav>
+        <!-- ......logo...... -->
+        <div class="logo">PWSkills Blog</div>
+        <!-- ......Add Blog Button...... -->
+        <div class="addBlog_btn">
+          <button><a href="index.html"><i class="fa-solid fa-arrow-left-long"></a></i></button>
+        </div>
+      </nav>
+      <div class="blog">
+      <div class="head">
+          <div class="head_text">
+      <strong class= "title">${selectedBlog.Title}</strong>
+      <p class= "discription" >${selectedBlog.Discription}</p>
+      </div>
+      <img src="${selectedBlog.Url}" alt="">
+  </div>
+      <p class= "blogcontant">${selectedBlog.blog_contant}</p>
+      
+      
+      </div>
+        `;
+}
 
-
-function read() {
+function read(blogId) {
     // Read data from IndexedDB
     const transaction = db.transaction(['formData'], 'readonly');
     const objectStore = transaction.objectStore('formData');
@@ -109,19 +134,22 @@ function read() {
             alert('No data available to open.');
             return;
         }
-        
 
+        const selectedBlog = data.find(blog => blog.Id === blogId);
+        if (!selectedBlog) {
+            alert('Selected blog not found.');
+            return;
+        }
 
         // Prepare the data to be sent to the other webpage
-        const dataToSend = JSON.stringify(data);
+        const dataToSend = JSON.stringify(selectedBlog);
 
-        // Open the other webpage in a new tab/window
-        const newWindow = window.open('read.html');
 
-        // Pass the data to the other webpage using local storage
-        newWindow.addEventListener('load', function () {
-            newWindow.localStorage.setItem('formData', dataToSend);
-        });
+        displaySelectedBlog(selectedBlog);
+
+
     };
 };
+
+
 
