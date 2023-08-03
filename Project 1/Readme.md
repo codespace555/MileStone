@@ -28,3 +28,15 @@ To run the application locally, follow these steps:
 1. Clone this repository to your local machine using `https://github.com/codespace555/MileStone/tree/7afd933bf7fd7379a6d57879cdbe87a733d97efe/Project%201`
 2. Navigate to the project directory: `cd Project 1`
 3. Open the `index.html` file in your preferred web browser.
+
+## Usage
+
+1. Upon opening the application, you will see navbar and  existing blog posts on the home page after you add.
+2. To add a new blog post, click on the '+' icon in the header, and a modal will open with the blog post form.
+3. Fill in the required fields in the form and submit it to add the new blog post..
+4.The new blog post will now appear in the list of existing blogs on the home page.
+5.To view the full content of a blog post, click on the `Read` button.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue. Please follow the standard GitHub workflow for contributions.
