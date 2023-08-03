@@ -25,6 +25,6 @@ PWSkills Blog is a simple blog application built using HTML, CSS, and JavaScript
 
 To run the application locally, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/your_username/Project 1`
-2. Navigate to the project directory: `cd PWSkills-Blog`
+1. Clone this repository to your local machine using `https://github.com/codespace555/MileStone/tree/7afd933bf7fd7379a6d57879cdbe87a733d97efe/Project%201`
+2. Navigate to the project directory: `cd Project 1`
 3. Open the `index.html` file in your preferred web browser.
