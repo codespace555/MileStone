@@ -35,6 +35,7 @@ To run the application locally, follow these steps:
 2. To add a new blog post, click on the '+' icon in the header, and a modal will open with the blog post form.
 3. Fill in the required fields in the form and submit it to add the new blog post..
 4.The new blog post will now appear in the list of existing blogs on the home page.
+
 5.To view the full content of a blog post, click on the `Read` button.
 
 ## Contributing
