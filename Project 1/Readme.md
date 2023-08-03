@@ -32,10 +32,17 @@ To run the application locally, follow these steps:
 ## Usage
 
 1. Upon opening the application, you will see navbar and  existing blog posts on the home page after you add.
+ ![PWSkills Blog](https://github.com/codespace555/MileStone/blob/0de0508d6c4f806d9380f36b635513f4fd631398/Project%201/Screenshot%202023-08-03%20194849.png)
 2. To add a new blog post, click on the '+' icon in the header, and a modal will open with the blog post form.
+   ![PWSkills Blog](https://github.com/codespace555/MileStone/blob/0059770d31b9512dc861347aa9d8a34474d9b1cd/Project%201/Screenshot%202023-08-03%20224051.png)
 3. Fill in the required fields in the form and submit it to add the new blog post..
+    ![PWSkills Blog](https://github.com/codespace555/MileStone/blob/0059770d31b9512dc861347aa9d8a34474d9b1cd/Project%201/Screenshot%202023-08-03%20224459.png)
 4.The new blog post will now appear in the list of existing blogs on the home page.
+    ![PWSkills Blog](https://github.com/codespace555/MileStone/blob/0059770d31b9512dc861347aa9d8a34474d9b1cd/Project%201/Screenshot%202023-08-03%20224732.png)
+
 5.To view the full content of a blog post, click on the `Read` button.
+    ![PWSkills Blog](https://github.com/codespace555/MileStone/blob/0059770d31b9512dc861347aa9d8a34474d9b1cd/Project%201/Screenshot%202023-08-03%20225308.png)
+
 
 
 
