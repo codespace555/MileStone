@@ -4,10 +4,6 @@
 
 A simple movie search web application built using HTML, CSS, and JavaScript. The application allows users to search for movies using an input box. Upon receiving the user's input, the application fetches movie data from the OMDB API and displays the relevant movie details on the interface.
 
-## Demo
-
-![Live Demo](link_to_your_live_demo)
-
 ## How to Use
 
 1. Open the `index.html` file in your preferred web browser.
