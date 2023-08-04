@@ -32,7 +32,7 @@ const apiKey = "YOUR_API_KEY";
 To run the application locally, follow these steps:
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/your_username/simple-movie-search-app.git
+   git clone https://github.com/codespace555/Project3.git
   ```
 cd Project3
 
