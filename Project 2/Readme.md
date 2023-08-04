@@ -26,3 +26,27 @@ Remember to replace `YOUR_API_KEY` in the `script.js` file with your actual OMDB
 
 ```javascript
 const apiKey = "YOUR_API_KEY";
+
+```
+## Installation
+To run the application locally, follow these steps:
+1. Clone this repository to your local machine:
+   ```
+   git clone https://github.com/your_username/simple-movie-search-app.git
+cd simple-movie-search-app.
+```
+2. Obtain your OMDB API key by registering on the OMDB API website.
+
+3. Update the script.js file with your actual OMDB API key.
+
+4. Open the index.html file in your web browser to start using the Movie Search App.
+
+## Features
+
+
+
+
+
+
+
+
