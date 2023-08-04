@@ -33,7 +33,9 @@ To run the application locally, follow these steps:
 1. Clone this repository to your local machine:
    ```
    git clone https://github.com/your_username/simple-movie-search-app.git
-cd simple-movie-search-app.
+  ```
+cd Project3
+
 ```
 2. Obtain your OMDB API key by registering on the OMDB API website.
 
@@ -42,7 +44,16 @@ cd simple-movie-search-app.
 4. Open the index.html file in your web browser to start using the Movie Search App.
 
 ## Features
+- Search for movies using an input box.
+- Fetch movie data from the OMDB API based on the user's input.
+- Display the movie title and poster image on the interface.
+  
+## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
+- OMDB API
 
 
 
