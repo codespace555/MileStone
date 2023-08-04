@@ -29,7 +29,7 @@ A simple Todo Web App built using React. This application allows users to add an
 
 To run the application locally, follow these steps:
 
-1. Clone this repository to your local machine using `https://github.com/codespace555/MileStone/edit/main/Project3`
+1. Clone this repository to your local machine using `https://github.com/codespace555/MileStone/Project3`
 2. Navigate to the project directory: `cd Project3`
 3. Install the required dependencies with `npm install`
 
